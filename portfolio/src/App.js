@@ -1,9 +1,21 @@
 // import logo from './logo.svg';
-import Routess from "./router";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Skills from "./components/skills";
+import About from "./components/About";
+import Profile from "./components/profiles";
+import Project from "./components/projects";
 
 function App() {
   return (
-    <Routess/>
+    <div>
+      <Navbar/>
+      <About/>
+      <Profile/>
+      <Skills/>
+      <Project/>
+      <Footer/>
+    </div>
   );
 }
 
