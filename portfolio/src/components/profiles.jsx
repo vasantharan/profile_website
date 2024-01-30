@@ -11,7 +11,6 @@ const Profile = () => {
             <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[20rem] mt-6 flex gap-6 lg:flex-row flex-col-reverse items-center justify-center">
                 <div><img src="https://leetcard.jacoblin.cool/vasantharan?theme=nord"/></div>
                 <div><img src="https://github-readme-stats.vercel.app/api?username=vasantharan&show_icons=true&theme=tokyonight"alt="" /></div>
-                
             </div>
         </section>
     );
